@@ -20,7 +20,7 @@ Most services will be using the free tier so costs should be very minimal.
     * coverage
 
 
-### Activity:
+#### Activity:
 
 1. Run unit tests `coverage run --branch --source='.' -m unittest` and coverage with `coverage report -m --fail-under=100 --omit=*/__init__.py,tests/*,cookie-shop-env/*` 
 1. Run the setup-template.yaml in AWS Cloudformation
